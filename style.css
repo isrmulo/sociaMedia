@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(https://img.freepik.com/fotos-premium/ceu-noturno-escuro-com-estrelas-de-fundo-estrelas-espaciais-textura-estrelas-coloridas-no-ceu-noturno_1064771-3673.jpg);
+    background-image: url(assests/bitmap.png);
     background-size: cover;
 }
 
@@ -15,18 +15,25 @@ body {
     text-align: center;
     width: 90%;
     max-width: 450px; 
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(1px);
-    overflow: hidden;
+    border-top: 1px solid rgb(153, 153, 153, 0.5);
+    border-right: 1px solid rgb(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+    border-left: 1px solid rgb(153, 153, 153, 0.5);
+    margin: 1rem 5rem;
+    padding: 1rem;
+    min-height: 300px;
+    border-radius: 1rem;
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .profile-image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .text {
@@ -87,7 +94,7 @@ span {
     text-decoration: none;
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(165, 163, 163, 0.5);
     transition: background-color 0.3s, transform 0.3s;
 }
 
